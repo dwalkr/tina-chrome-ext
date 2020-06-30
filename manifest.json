@@ -1,0 +1,12 @@
+{
+  "name": "Tina",
+  "version": "0.1.0",
+  "description": "Toggle editing capability for Tina-powered websites",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {},
+  "permissions": ["tabs", "http://*/", "https://*/"]
+}
